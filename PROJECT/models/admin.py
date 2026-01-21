@@ -34,4 +34,5 @@ class Admin(User):
     def display_admin_info(self):
         """Hiển thị thông tin admin"""
         base_info = super().display_info()
-        return f"👑 {base_info} | Quyền: Quản trị hệ thống"
+
+        return f" {base_info} | Quyền: Quản trị hệ thống"
