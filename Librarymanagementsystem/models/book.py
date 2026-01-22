@@ -1,4 +1,4 @@
-from models.user import Author
+from models.author import Author
 
 class Book:
     def __init__(
