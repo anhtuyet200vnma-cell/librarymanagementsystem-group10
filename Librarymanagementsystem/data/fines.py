@@ -8,7 +8,7 @@ Base = declarative_base()
 class Fine(Base):
     __tablename__ = "fines"
 
-    fines_id = Column(Integer, primary_key=True, autoincremnent=True)
+    fines_id = Column(Integer, primary_key=True)
     amount = Column(DECIMAL(10, 2), nullable=False)
     reason = Column(String, nullable=False)
     paid_status= Column(Boolean, default=False)
