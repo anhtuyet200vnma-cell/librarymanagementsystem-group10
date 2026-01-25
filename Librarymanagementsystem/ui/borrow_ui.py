@@ -1,6 +1,6 @@
-import tkinter as tk
-from tkinter import messagebox
-
+class BorrowUI:
+    def __init__(self):
+        pass
 
 class BorrowUI(tk.Frame):
     def __init__(self, master, app):
@@ -41,12 +41,11 @@ class BorrowUI(tk.Frame):
         else:
             messagebox.showerror("Borrow", msg)
         self.result_label.config(text=msg)
+    def borrow_book(self):
+        book_id = input("Nhập Book ID muốn mượn: ").strip()
+        print(f"✅ Đã gửi yêu cầu mượn sách: {book_id}")
+
 
     def return_book(self):
-        book_id = self.book_id_entry.get().strip()
-        ok, msg = self.app.controller.return_book(book_id)
-        if ok:
-            messagebox.showinfo("Return", msg)
-        else:
-            messagebox.showerror("Return", msg)
-        self.result_label.config(text=msg)
+        book_id = input("Nhập Book ID muốn trả: ").strip()
+        print(f"✅ Đã gửi yêu cầu trả sách: {book_id}")
