@@ -1,7 +1,6 @@
 # models/admin.py
 from models.user import User, AccountStatus, Role
 
-
 class Admin(User):
     """
     Admin – Trang 50–51
