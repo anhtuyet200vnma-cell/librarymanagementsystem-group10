@@ -1,0 +1,32 @@
+[
+  {
+    "book_id": 1,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "publication_year": 1997,
+    "total_copies": 10,
+    "available_copies": 8,
+    "status": "AVAILABLE",
+    "author_id": 1,
+    "category_id": 1
+  },
+  {
+    "book_id": 2,
+    "title": "1984",
+    "publication_year": 1949,
+    "total_copies": 5,
+    "available_copies": 3,
+    "status": "AVAILABLE",
+    "author_id": 2,
+    "category_id": 2
+  },
+  {
+    "book_id": 3,
+    "title": "To Kill a Mockingbird",
+    "publication_year": 1960,
+    "total_copies": 7,
+    "available_copies": 0,
+    "status": "UNAVAILABLE",
+    "author_id": 3,
+    "category_id": 3
+  }
+]

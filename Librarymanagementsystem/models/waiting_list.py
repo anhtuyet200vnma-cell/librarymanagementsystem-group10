@@ -22,7 +22,6 @@ class WaitingList:
     def add_book(self, book_id, quantity=1):
         """
         Thêm sách vào danh sách chờ
-        Trả về: (thành công, thông báo lỗi)
         """
         if quantity <= 0:
             return False, "Số lượng phải lớn hơn 0"
@@ -41,7 +40,6 @@ class WaitingList:
     def remove_book(self, book_id):
         """
         Xóa sách khỏi danh sách chờ
-        Trả về: (thành công, thông báo lỗi)
         """
         for i, item in enumerate(self.items):
             if item.book_id == book_id:
@@ -53,7 +51,6 @@ class WaitingList:
     def update_quantity(self, book_id, new_quantity):
         """
         Cập nhật số lượng sách trong danh sách chờ
-        Trả về: (thành công, thông báo lỗi)
         """
         if new_quantity <= 0:
             return False, "Số lượng phải lớn hơn 0"
@@ -89,23 +86,20 @@ class WaitingList:
     def create_borrow_request(self):
         if self.is_empty():
             return None, "Danh sách chờ trống"
-        # Lấy danh sách ID sách ra để chuẩn bị tạo đơn
         requested_books = [item.book_id for item in self.items]
         self.clear_list()
         return requested_books, None
     
     def to_dict(self):
-        """Chuyển thành từ điển"""
         return {
             'waiting_list_id': self.waiting_list_id,
-            'member_id': self.member_id,
+            'user_id': self.user_id,
             'created_date': self.created_date,
             'items': [item.to_dict() for item in self.items]
         }
     
     @classmethod
     def from_dict(cls, data):
-        """Create WaitingList from dictionary"""
         items_data = data.pop('items', [])
         waiting_list = cls(**data)
         waiting_list.items = [WaitingListItem.from_dict(item) for item in items_data]
