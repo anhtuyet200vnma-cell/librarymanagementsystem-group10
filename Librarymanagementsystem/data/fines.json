@@ -1,0 +1,22 @@
+[
+    {
+        "fine_id": "393814a7-f69a-43fa-b69b-5e963d2698b1",
+        "user_id": 1,
+        "borrow_id": "74a6b9ee-2287-4f10-a875-db79a69ebc8b",
+        "amount": 200000,
+        "reason": "+ Mất sách",
+        "status": "UNPAID",
+        "created_date": "2026-01-27T21:37:19.858547",
+        "paid_date": null
+    },
+    {
+        "fine_id": "5abd252b-8095-48d3-a97c-e9728daa9953",
+        "user_id": 2,
+        "borrow_id": "7993976e-64c8-4010-a276-d73e8141591c",
+        "amount": 1960000,
+        "reason": "Phạt trễ 352 ngày: 1,760,000 VND | Phạt Mất sách: 200,000 VND",
+        "status": "UNPAID",
+        "created_date": "2026-01-31T09:38:22.373212",
+        "paid_date": null
+    }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "fine_id": "FINE001",
+    "borrow_order_detail_id": "BOD001",
+    "user_id": 2,
+    "borrow_id": "BO001",
+    "amount": 15000,
+    "reason": "Trả trễ 3 ngày: 15,000 VND",
+    "paid_status": false,
+    "created_date": "2026-01-24 10:30:15"
+  },
+  {
+    "fine_id": "FINE002",
+    "borrow_order_detail_id": "BOD002",
+    "user_id": 3,
+    "borrow_id": "BO002",
+    "amount": 10000,
+    "reason": "Trả trễ 2 ngày: 10,000 VND",
+    "paid_status": true,
+    "paid_date": "2026-01-25 14:20:00",
+    "created_date": "2026-01-24 09:15:30"
+  }
+]

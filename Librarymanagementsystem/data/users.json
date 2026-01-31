@@ -1,0 +1,67 @@
+[
+    {
+        "user_id": 1,
+        "username": "baongoc",
+        "email": "baongoc@library.com",
+        "password": "baongoc1203",
+        "full_name": "System Administrator",
+        "phone_number": "0123456789",
+        "status": "INACTIVE",
+        "role": "ADMIN",
+        "borrowing_limit": 999,
+        "penalty_status": false,
+        "created_at": "2024-01-01T08:00:00"
+    },
+    {
+        "user_id": 2,
+        "username": "candy",
+        "email": "candy@example.com",
+        "password": "candy123",
+        "full_name": "Candy",
+        "phone_number": "0987654321",
+        "status": "ACTIVE",
+        "role": "MEMBER",
+        "borrowing_limit": 10,
+        "penalty_status": false,
+        "created_at": "2024-01-02T09:30:00"
+    },
+    {
+        "user_id": 3,
+        "username": "Joe",
+        "email": "Joe123@example.com",
+        "password": "Joe2025",
+        "full_name": "Mr.Joe",
+        "phone_number": "0912345678",
+        "status": "SUSPENDED",
+        "role": "ADMIN",
+        "borrowing_limit": 999,
+        "penalty_status": true,
+        "created_at": "2026-01-25T00:00:00"
+    },
+    {
+        "user_id": 4,
+        "username": "Ms.Ngoc",
+        "email": "ngoc2006@example.com",
+        "password": "ngoc2006",
+        "full_name": "ngoc2006",
+        "phone_number": "0909876543",
+        "status": "ACTIVE",
+        "role": "MEMBER",
+        "borrowing_limit": 10,
+        "penalty_status": false,
+        "created_at": "2026-01-25T00:00:00"
+    },
+    {
+        "user_id": 5,
+        "username": "ngocdep",
+        "email": "ngocdep@example.com",
+        "password": "ngocdethuong",
+        "full_name": "Bao Ngoc",
+        "phone_number": "0934567890",
+        "status": "ACTIVE",
+        "role": "MEMBER",
+        "borrowing_limit": 10,
+        "penalty_status": false,
+        "created_at": "2026-01-25T00:00:00"
+    }
+]

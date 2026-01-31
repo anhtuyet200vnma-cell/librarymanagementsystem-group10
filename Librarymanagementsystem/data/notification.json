@@ -1,0 +1,29 @@
+[
+  {
+    "notification_id": "NOTI001",
+    "user_id": 5,
+    "content": "Bạn có sách sắp đến hạn trả!",
+    "type": "due_date",
+    "created_date": "2026-01-24T10:30:15",
+    "status": "SENT",
+    "is_read": false
+  },
+  {
+    "notification_id": "NOTI002",
+    "user_id": 2,
+    "content": "Đơn mượn #BO001 đã được xử lý thành công.",
+    "type": "borrow_confirmation",
+    "created_date": "2026-01-24T14:20:00",
+    "status": "SENT",
+    "is_read": true
+  },
+  {
+    "notification_id": "NOTI003",
+    "user_id": 3,
+    "content": "Bạn có tiền phạt chưa thanh toán.",
+    "type": "fine_notification",
+    "created_date": "2026-01-25T09:00:00",
+    "status": "SENT",
+    "is_read": false
+  }
+]

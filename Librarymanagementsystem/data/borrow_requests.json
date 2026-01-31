@@ -1,0 +1,52 @@
+[
+  {
+    "request_id": 1,
+    "user_id": 2,
+    "request_date": "2026-01-27T09:00:00",
+    "status": "PENDING",
+    "books": ["BK001"],
+    "approval_date": null,
+    "approver": null,
+    "reject_reason": null
+  },
+  {
+    "request_id": 2,
+    "user_id": 3,
+    "request_date": "2026-01-27T09:05:00",
+    "status": "APPROVED",
+    "books": ["BK002"],
+    "approval_date": "2026-01-27T09:10:00",
+    "approver": 1,
+    "reject_reason": null
+  },
+  {
+    "request_id": 3,
+    "user_id": 2,
+    "request_date": "2026-01-27T09:15:00",
+    "status": "REJECTED",
+    "books": ["BK003"],
+    "approval_date": "2026-01-27T09:20:00",
+    "approver": 1,
+    "reject_reason": "Book is unavailable"
+  },
+  {
+    "request_id": 4,
+    "user_id": 5,
+    "request_date": "2026-01-27T09:25:00",
+    "status": "APPROVED",
+    "books": ["BK004"],
+    "approval_date": "2026-01-27T09:30:00",
+    "approver": 1,
+    "reject_reason": null
+  },
+  {
+    "request_id": 5,
+    "user_id": 2,
+    "request_date": "2026-01-27T09:35:00",
+    "status": "APPROVED",
+    "books": ["BK005"],
+    "approval_date": "2026-01-27T09:40:00",
+    "approver": 1,
+    "reject_reason": null
+  }
+]

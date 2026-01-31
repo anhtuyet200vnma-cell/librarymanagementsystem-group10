@@ -1,0 +1,257 @@
+[
+    {
+        "book_id": "BK001",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "description": "The first novel in the Harry Potter series.",
+        "publication_year": 1997,
+        "quantity": 10,
+        "available_quantity": 3,
+        "available_copies": 3,
+        "status": "AVAILABLE",
+        "author_id": 1,
+        "category_id": "CAT001"
+    },
+    {
+        "book_id": "BK002",
+        "title": "1984",
+        "description": "A dystopian social science fiction novel.",
+        "publication_year": 1949,
+        "quantity": 5,
+        "available_quantity": 2,
+        "available_copies": 2,
+        "status": "AVAILABLE",
+        "author_id": 2,
+        "category_id": "CAT002"
+    },
+    {
+        "book_id": "BK003",
+        "title": "To Kill a Mockingbird",
+        "description": "A novel by Harper Lee published in 1960.",
+        "publication_year": 1960,
+        "quantity": 7,
+        "available_quantity": 6,
+        "available_copies": 6,
+        "status": "AVAILABLE",
+        "author_id": 3,
+        "category_id": "CAT003"
+    },
+    {
+        "book_id": "BK004",
+        "title": "The Shining",
+        "description": "A horror novel by Stephen King.",
+        "publication_year": 1977,
+        "quantity": 6,
+        "available_quantity": 5,
+        "available_copies": 5,
+        "status": "AVAILABLE",
+        "author_id": 4,
+        "category_id": "CAT004"
+    },
+    {
+        "book_id": "BK005",
+        "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+        "description": "Một tiểu thuyết dành cho thanh thiếu niên.",
+        "publication_year": 2010,
+        "quantity": 15,
+        "available_quantity": 13,
+        "available_copies": 13,
+        "status": "AVAILABLE",
+        "author_id": 5,
+        "category_id": "CAT005"
+    },
+    {
+        "book_id": "BK006",
+        "title": "Frozen 2",
+        "description": "Mô tả sách learn with Frozen",
+        "publication_year": 2021,
+        "quantity": 10,
+        "available_quantity": 10,
+        "available_copies": 10,
+        "status": "AVAILABLE",
+        "author_id": 6,
+        "category_id": "CAT006"
+    },
+    {
+        "book_id": "BK007",
+        "title": "SỰ IM LẶNG CỦA BẦY CỪU",
+        "description": "HORROR",
+        "publication_year": 2011,
+        "quantity": 15,
+        "available_quantity": 15,
+        "available_copies": 15,
+        "status": "AVAILABLE",
+        "author_id": 7,
+        "category_id": "CAT007"
+    },
+    {
+        "book_id": "BK008",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "description": "The second novel in the Harry Potter series.",
+        "publication_year": 1998,
+        "quantity": 8,
+        "available_quantity": 8,
+        "available_copies": 8,
+        "status": "AVAILABLE",
+        "author_id": 1,
+        "category_id": "CAT001"
+    },
+    {
+        "book_id": "BK009",
+        "title": "Animal Farm",
+        "description": "An allegorical novella by George Orwell.",
+        "publication_year": 1945,
+        "quantity": 6,
+        "available_quantity": 6,
+        "available_copies": 6,
+        "status": "AVAILABLE",
+        "author_id": 2,
+        "category_id": "CAT002"
+    },
+    {
+        "book_id": "BK010",
+        "title": "Go Set a Watchman",
+        "description": "A novel by Harper Lee published in 2015.",
+        "publication_year": 2015,
+        "quantity": 5,
+        "available_quantity": 5,
+        "available_copies": 5,
+        "status": "AVAILABLE",
+        "author_id": 3,
+        "category_id": "CAT003"
+    },
+    {
+        "book_id": "BK011",
+        "title": "IT",
+        "description": "A horror novel by Stephen King.",
+        "publication_year": 1986,
+        "quantity": 7,
+        "available_quantity": 7,
+        "available_copies": 7,
+        "status": "AVAILABLE",
+        "author_id": 4,
+        "category_id": "CAT004"
+    },
+    {
+        "book_id": "BK012",
+        "title": "Cô Gái Đến Từ Hôm Qua",
+        "description": "Tiểu thuyết dành cho tuổi mới lớn.",
+        "publication_year": 2013,
+        "quantity": 12,
+        "available_quantity": 12,
+        "available_copies": 12,
+        "status": "AVAILABLE",
+        "author_id": 5,
+        "category_id": "CAT005"
+    },
+    {
+        "book_id": "BK013",
+        "title": "The Lion King",
+        "description": "Disney animated classic storybook.",
+        "publication_year": 2019,
+        "quantity": 8,
+        "available_quantity": 8,
+        "available_copies": 8,
+        "status": "AVAILABLE",
+        "author_id": 6,
+        "category_id": "CAT006"
+    },
+    {
+        "book_id": "BK014",
+        "title": "Red Dragon",
+        "description": "The first Hannibal Lecter novel.",
+        "publication_year": 1981,
+        "quantity": 6,
+        "available_quantity": 6,
+        "available_copies": 6,
+        "status": "AVAILABLE",
+        "author_id": 7,
+        "category_id": "CAT007"
+    },
+    {
+        "book_id": "BK015",
+        "title": "Murder on the Orient Express",
+        "description": "A detective novel by Agatha Christie.",
+        "publication_year": 1934,
+        "quantity": 9,
+        "available_quantity": 9,
+        "available_copies": 9,
+        "status": "AVAILABLE",
+        "author_id": 8,
+        "category_id": "CAT008"
+    },
+    {
+        "book_id": "BK016",
+        "title": "And Then There Were None",
+        "description": "Mystery novel by Agatha Christie.",
+        "publication_year": 1939,
+        "quantity": 7,
+        "available_quantity": 7,
+        "available_copies": 7,
+        "status": "AVAILABLE",
+        "author_id": 8,
+        "category_id": "CAT008"
+    },
+    {
+        "borrow_id": "f4a035aa-c52e-4384-a3d2-bc838d27d578",
+        "user_id": 2,
+        "book_id": "BK003",
+        "books": [
+            "BK003"
+        ],
+        "borrow_date": "2026-01-30T15:23:50.382193",
+        "due_date": "2026-02-13T15:23:50.382209",
+        "return_date": "2026-01-31T09:39:46.077246",
+        "status": "RETURNED",
+        "condition": "GOOD",
+        "overdue_days": 0,
+        "fine_amount": 0,
+        "fine_details": []
+    },
+    {
+        "borrow_id": "3066792f-bb1a-41f6-b74b-5c8ed0489796",
+        "user_id": 2,
+        "book_id": "BK005",
+        "books": [
+            "BK005"
+        ],
+        "borrow_date": "2026-01-30T15:24:03.910425",
+        "due_date": "2026-02-13T15:24:03.910432",
+        "return_date": "2026-01-31T09:38:52.215354",
+        "status": "RETURNED",
+        "condition": "GOOD",
+        "overdue_days": 0,
+        "fine_amount": 0,
+        "fine_details": []
+    },
+    {
+        "borrow_id": "7993976e-64c8-4010-a276-d73e8141591c",
+        "user_id": 2,
+        "book_id": "BK003",
+        "books": [
+            "BK003"
+        ],
+        "borrow_date": "2026-01-31T09:36:42.138013",
+        "due_date": "2026-02-14T09:36:42.138035",
+        "return_date": "2027-02-01T00:00:00",
+        "status": "RETURNED",
+        "condition": "LOST",
+        "overdue_days": 352,
+        "fine_amount": 1960000,
+        "fine_details": [
+            "Phạt trễ 352 ngày: 1,760,000 VND",
+            "Phạt Mất sách: 200,000 VND"
+        ]
+    },
+    {
+        "borrow_id": "42a452b9-dcdc-4ab6-ba80-035f5317809b",
+        "user_id": 2,
+        "book_id": "BK003",
+        "books": [
+            "BK003"
+        ],
+        "borrow_date": "2026-01-31T09:37:26.899614",
+        "due_date": "2026-02-14T09:37:26.899629",
+        "return_date": "2026-01-31T09:39:50.923835",
+        "status": "RETURNED"
+    }
+]
